@@ -9,3 +9,10 @@ All results are contained in results folder, sorted into folders based in baseli
 Run.sh is the script used to run batch jobs. I modified the same file to run different workloads on different executables. It was run in background using ./run.sh &
 
 All graphs plotted(and a couple extra unused ones) are placed in the images folder.
+
+
+Design Space Exploration is done by changing a file called <policy>_dse.cc 
+For the SHIP++, changes are done in the MAX_RRPV value and NUM_LEADER_SETS variable for number of sampled sets.
+FOR LIME, the hash functions are changed and their references across the code base. An example of both tag and pc is kept in two files lime_pc_hash and lime_tag_hash.
+These are then compiled using the config files and binaries are created.
+
