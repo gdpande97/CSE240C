@@ -1,0 +1,11 @@
+Compilation done using steps given in README.
+
+All models are compiled for Config 2, which is simulating single core with prefetches enabled. The traces used are the same the the sets used in SHIP++.
+
+new_script.py is used to run the data extraction and visualization. 
+
+All results are contained in results folder, sorted into folders based in baseline, DSE or Size exploration. All binaries are similarly stored in the bin folder in the same fashion.
+
+Run.sh is the script used to run batch jobs. I modified the same file to run different workloads on different executables. It was run in background using ./run.sh &
+
+All graphs plotted(and a couple extra unused ones) are placed in the images folder.

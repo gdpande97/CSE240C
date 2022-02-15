@@ -1,0 +1,19 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 50000000
+Simulation Instructions: 100000000
+Configuration: 2
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Channels: 1 Width: 64-bit Data Rate: 1600 MT/s
+
+CPU 0 runs /datasets/cs240c-wi22-a00-public/data/Assignment2-gz/soplex_66B.trace.gz
+CPU 0 L1D next line prefetcher
+CPU 0 L2C IP-based stride prefetcher
+Heartbeat CPU 0 instructions: 1000003 cycles: 415129 heartbeat IPC: 2.4089 cumulative IPC: 2.4089 (Simulation time: 0 hr 0 min 36 sec) 
+Heartbeat CPU 0 instructions: 2000003 cycles: 837159 heartbeat IPC: 2.3695 cumulative IPC: 2.38904 (Simulation time: 0 hr 1 min 8 sec) 
+Heartbeat CPU 0 instructions: 3000003 cycles: 1242083 heartbeat IPC: 2.4696 cumulative IPC: 2.4153 (Simulation time: 0 hr 1 min 36 sec) 
+Heartbeat CPU 0 instructions: 4000000 cycles: 1626195 heartbeat IPC: 2.6034 cumulative IPC: 2.45973 (Simulation time: 0 hr 2 min 2 sec) 
+Heartbeat CPU 0 instructions: 5000000 cycles: 2041411 heartbeat IPC: 2.40839 cumulative IPC: 2.44929 (Simulation time: 0 hr 2 min 30 sec) 
